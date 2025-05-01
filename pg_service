@@ -1,0 +1,5 @@
+[taskflow_devdb]
+host=localhost
+user=postgres
+dbname=taskflow_devdb
+port=5432
