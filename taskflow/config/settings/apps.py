@@ -1,9 +1,11 @@
 # Application definition
+INSTALLED_APPS = []
+
 PROJECT_APPS = [
     'taskflow.apps.accounts',
 ]
 
-INSTALLED_APPS = [
+DJANGO_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -13,4 +15,6 @@ INSTALLED_APPS = [
     'rest_framework',
 ]
 
+
+INSTALLED_APPS.extend(DJANGO_APPS)
 INSTALLED_APPS.extend(PROJECT_APPS)
