@@ -1,4 +1,4 @@
-# taskflow-intelligent-task-manager - Pragmatic Clean Architecture with Django
+# taskflow-intelligent-task-manager
 # 📝 TaskFlow
 
 **TaskFlow** is a modular, backend-oriented task management system designed for productivity and scalability. Built with Django and FastAPI, it demonstrates clean architecture principles, asynchronous processing, and AI-assisted task prioritization.
