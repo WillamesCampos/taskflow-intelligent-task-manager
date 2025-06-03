@@ -2,8 +2,6 @@ from django.db import models
 from django.contrib.auth.models import AbstractUser
 from taskflow.core.models.audition import AuditableModel
 
-# Create your models here.
-
 
 class UserAccount(AbstractUser, AuditableModel):
 
