@@ -1,7 +1,7 @@
-from core.dtos.audition_dto import AuditableDTO
+from taskflow.domain.core.entities.mixins.audition import AuditableMixin
 
 
-class UserAccountDTO(AuditableDTO):
+class UserAccount(AuditableMixin):
     def __init__(
         self,
         first_name: str,

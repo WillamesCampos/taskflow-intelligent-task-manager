@@ -1,4 +1,4 @@
-class AuditableDTO:
+class AuditableMixin:
     def __init__(
         self,
         created_by_id: int,
